@@ -1,0 +1,52 @@
+/* CSS untuk mengatur tampilan label ion */
+.forecast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  /* CSS untuk mengatur tampilan header cuaca */
+  .forecast-header {
+    font-size: 1.2em; /* Ukuran font untuk judul cuaca */
+    font-weight: bold; /* Ketebalan font untuk judul cuaca */
+  }
+  
+  /* CSS untuk mengatur tampilan teks utama cuaca */
+  .weather-main {
+    color: #007bff; /* Warna teks untuk bagian utama cuaca */
+    font-size: 1.1em; /* Ukuran font untuk teks utama cuaca */
+    font-weight: bold; /* Ketebalan font untuk teks utama cuaca */
+  }
+  
+  /* CSS untuk mengatur tampilan deskripsi cuaca */
+  .weather-description {
+    color: #666; /* Warna teks untuk deskripsi cuaca */
+    font-size: 0.9em; /* Ukuran font untuk deskripsi cuaca */
+  }
+  
+  /* CSS untuk mengatur tampilan suhu */
+  .temperature {
+    font-size: 1.5em; /* Ukuran font untuk suhu */
+    margin-top: 10px; /* Jarak atas dari elemen sebelumnya */
+    font-weight: bold; /* Ketebalan font untuk suhu */
+  }
+  
+  /* CSS untuk mengatur tampilan detail cuaca */
+  .forecast-details {
+    font-size: 0.9em; /* Ukuran font untuk detail cuaca */
+    margin-top: 5px; /* Jarak atas dari elemen sebelumnya */
+  }
+  
+  /* CSS untuk mengatur tampilan tanggal dan waktu */
+  .date, .time {
+    margin-right: px; /* Jarak antara elemen dalam detail cuaca */
+  }
+  
+  /* CSS untuk mengatur tampilan kisaran suhu */
+  .temp-range {
+    color: #28a745; /* Warna teks untuk kisaran suhu */
+    font-weight: bold; /* Ketebalan font untuk kisaran suhu */
+  }
+  

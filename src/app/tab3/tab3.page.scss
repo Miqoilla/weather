@@ -1,0 +1,50 @@
+/* Tampilan Tab 1 */
+#container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .ion-60p {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .ion-30p {
+    font-size: 1.5rem;
+  }
+  
+  /* Tampilan Tab 2 */
+  ion-list {
+    margin-top: 20px;
+  }
+  
+  ion-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  ion-item h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  ion-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  
+  /* Tampilan Tab 3 */
+  .about-container {
+    padding: 20px;
+  }
+  
+  ion-card {
+    margin-bottom: 20px;
+  }
+  
+  /* Umum */
+  ion-title {
+    font-weight: bold;
+  }
+  

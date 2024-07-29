@@ -21,7 +21,7 @@ import { Observable } from 'rxjs';
 })
 export class WeatherService {
   url = 'https://api.openweathermap.org/data/2.5/';
-  key = '2c0737fc9dcd1721740908dfe7d3dc0e'; // Ganti dengan API key Anda
+  key = 'your_api_news_ke'; // Ganti dengan API key Anda
   city = 'Yogyakarta';
 
   constructor(private http: HttpClient) { }
